@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto';
+}
+
+.claendar-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.calendar-header,
+.calendar-week {
+    display: flex;
+}
+
+.header-cell {
+    display: flex;
+    width: 14.285%;
+    height: 50px;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    padding: 6px;
+}
+
+.day-cell {
+    display: flex;
+    width: 14.285%;
+    height: 80px;
+    background-color: #e0e0e0;
+    border: 4px solid white;
+    padding: 6px;
+    position: relative;
+}
+
+.day-cell span {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.empty-cell {
+    display: flex;
+    width: 14.285%;
+    height: 80px;
+    background-color: none;
+    border: 4px solid white;
+    padding: 6px;   
+}
+
+.today {
+    background-color: orange;
+    color: white;
+}
+
+.event-day {
+    font-size: .7em;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.event {
+    padding: 0 3px 3px;
+    margin-bottom: 4px;
+}
+#prevBtn, #nextBtn{
+    border-radius: 50px;
+    border: none;
+    margin-left: 0 5px 0 5px;
+}

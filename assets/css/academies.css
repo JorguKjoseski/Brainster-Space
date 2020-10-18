@@ -1,0 +1,118 @@
+
+.divOne{
+    margin-top: 2.5%;   
+}
+.imgDiv{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/partnerstva\ so\ tech\ komp.jpg');
+    padding: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textDiv, h2, p{
+    margin-top: 5%;  
+    letter-spacing: 1px;  
+}
+.textDiv h2{
+    font-weight: bold;    
+}
+/* ------------------------------------------- */
+.cardDiv{
+    margin-top: 2%; 
+    margin-bottom: 2%;   
+}
+
+.cardImg{
+    background-image:linear-gradient(rgba(111, 50, 119, 0.5), rgba(111, 50, 119, 0.5)), url('../img/akademii/neonbrand-gYf49RB7bvE-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.card-body h5{
+    color: white;
+    margin-bottom: 20%;
+    letter-spacing: 1px;
+}
+.cardImg, .cardImg2, .cardImg3, .cardImg4, .cardImg5, .cardImg6 ul li{
+    list-style: none; 
+    color: white;       
+}
+body > div.container-fluid.divOne > div.container-fluid.cardDiv > div > div > div > div > h5{
+    margin-left: -24%;
+}
+body > div.container-fluid.divOne > div.container-fluid.cardDiv > div > div > div > div > ul > li > i{
+    margin-left: -55%;
+    color: white;
+    list-style: none;    
+}
+.card-body ul{
+    list-style: none;
+}
+.cardImg{
+    background-image:linear-gradient(rgba(111, 50, 119, 0.5), rgba(111, 50, 119, 0.5)), url('../img/akademii/neonbrand-gYf49RB7bvE-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cardImg2{
+    background-image:linear-gradient(rgba(112, 56, 71, 0.5), rgba(112, 56, 71, 0.5)), url('../img/akademii/kimberly-farmer-lUaaKCUANVI-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cardImg3{
+    background-image:linear-gradient(rgba(54, 128, 80, 0.5), rgba(54, 128, 80, 0.5)), url('../img/akademii/markus-spiske-hvSr_CVecVI-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cardImg4{
+    background-image:linear-gradient(rgba(35, 62, 42, 0.5), rgba(35, 62, 42, 0.5)), url('../img/akademii/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cardImg5{
+    background-image:linear-gradient(rgba(69, 76, 107, 0.5), rgba(69, 76, 107, 0.5)), url('../img/akademii/studio-republic-fotKKqWNMQ4-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cardImg6{
+    background-image:linear-gradient(rgba(55, 85, 76, 0.5), rgba(55, 85, 76, 0.5)), url('../img/akademii/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg');
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cr{
+    margin-bottom: 1.5%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body > div.container-fluid.divOne > div.container-fluid.cardDiv > div > div > div > div > ul > li > i{
+        margin-left: -20%;
+       
+    }
+    
+    
+}
+
+/* @media only screen and (max-width: 426px) {
+   .card-body h5{
+      margin-bottom: 20%;
+   }
+   body > div.container-fluid.divOne > div.container-fluid.cardDiv > div > div > div > div > ul > li > i{
+    margin-left: -20%;
+    display: none;
+}    
+    
+} */
+

@@ -1,0 +1,318 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-outline-success {
+    color: #D5B12A;
+    border-color: #202121;
+    background-color: #202121;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-link :hover {
+    cursor: pointer;
+}
+
+/* modal */
+
+.modal-header h5 {
+    margin-top: 2.5%;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.modal-btn :hover {
+    background-color: #D5B12A;
+    color: black;
+}
+
+.mainBG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/neonbrand-1-aA2Fadydc-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+}
+
+.mainBG h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* card div */
+
+.card-div h2 {
+    padding: 2% 0 2% 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cardF .btn {
+    margin: 0 3% 3% 0%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.cardF .btn :hover {
+    border-color: #D5B12A;
+}
+
+#strelka :hover {
+    color: #D5B12A;
+}
+
+.cardF .btn i {
+    font-size: 1rem;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+.card-deck {
+    margin-bottom: 6%;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    height: 12rem;
+}
+
+.card2 :hover {
+    transform: scale(1.03);
+}
+
+/* edukacija */
+
+.slika1 {
+    background-image: url('../img/zaNas/edukacija1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30%;
+}
+
+.edukacija h2 {
+    padding-top: 1%;
+    margin: 3% 0 3% 0;
+    font-weight: bold;
+}
+
+.edukacija p {
+    font-size: 20px;
+    color: #858585;
+}
+
+.edukacija .slika1 {
+    border-radius: 1%;
+}
+
+#btn-A, #btn-A2 {
+    margin: 3%;
+    color: #D5B12A;
+    background-color: #202121;
+}
+
+#btn-K, #btn-K2 {
+    color: #202121;
+    background-color: #D5B12A;
+}
+
+#btn-K, #btn-K2 :hover {
+    color: #D5B12A;
+    color: #202121;
+}
+
+.slika2 {
+    background-image: url('../img/IMG_7707.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30%;
+}
+
+.edukacija .slika2 {
+    border-radius: 1%;
+}
+
+.levo-dNone {
+    display: none;
+}
+
+.desno-dBlock {
+    display: block;
+}
+
+/* nastani */
+
+.nastani {
+    margin-top: 3%;
+}
+
+.text-center h2 {
+    padding: 2% 0 2% 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* kopce kalendar */
+
+.dugme i {
+    color: #D5B12A;
+    margin: 0 5px 0 0;
+}
+
+.dugme .btn {
+    background-color: #202121;
+    padding: 0.5% 1% 0.5% 1%;
+    text-transform: uppercase;
+}
+
+/* coworking */
+
+.slika3 {
+    background-image: url('../img/zaNas/coworking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30%;
+    border-radius: 1%;
+}
+
+.slikalevo {
+    margin-top: 5%;
+}
+
+.edukacija2 h2 {
+    margin-top: 11%;
+    font-weight: bold;
+}
+
+.edukacija2 p {
+    margin-top: 5%;
+    font-size: 20px;
+    color: #858585;
+}
+
+.edukacija2 .btn {
+    background: #202121;
+    color: #D5B12A;
+}
+
+.badge {
+    background-color: #D5B12A;
+    padding: 1%;
+    text-transform: uppercase;
+    color: black;
+    display: none;
+}
+
+/* prostor za nastani */
+
+.slika4 {
+    background-image: url('../img/zaNas/prostor za nastani.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30%;
+    border-radius: 1%;
+}
+
+.edukacija4 {
+    margin-top: 10%;
+}
+
+.edukacija4 h2 {
+    margin: 3% 0 3% 0;
+    font-weight: bold;
+}
+
+.edukacija4 p {
+    font-size: 20px;
+    color: #858585;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(211, 211, 211, 0.26);
+    border-top: rgba(128, 128, 128, 0.424) solid 4px;
+    padding-top: 4%;
+}
+
+footer li {
+    list-style-type: none;
+    padding-top: 3%;
+}
+
+footer li a {
+    color: black;
+    font-size: smaller;
+}
+
+footer li a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.last {
+    background-color: #E7E7E7;
+}
+
+.modal-body2 ul li {
+    list-style: none;
+}
+
+/* madia */
+
+@media only screen and (max-width: 768px) {
+    .mainBG h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .mainBG h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+    #navbarSupportedContent > button {
+    display: none;   
+    }
+}
+
+@media only screen and (max-width: 426px) {
+   
+    #navbarSupportedContent > button{
+    display: block;    
+    }
+    #kopce1{
+        display: none;
+    }
+}
+
+
+
+
+

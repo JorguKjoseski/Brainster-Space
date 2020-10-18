@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <title>HomePage</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a href="../Project 2/index.html" target="_blank" class="navbar-brand"><img
+        src="./assets/img/brainster_space_logo.svg" alt=""> </a>
+    <ul class="nav navbar-nav ml-auto d-xl-none d-lg-none d-xs-block d-sm-block d-md-block">
+      <form class="navbar-form">
+        <button type="button" id="kopce1" class=" btn btn-outline-success modal-btn" data-toggle="modal"
+          data-target="#exampleModal">
+          + ПРИКЛУЧИ СЕ
+        </button>
+      </form>
+    </ul>
+    <button class="navbar-toggler shadow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="color: #D5B12A;"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link borderBottom btn-toggle" href="../Project 2/assets/HTML/Space_Blog.html"
+            target="_blank">SPACE БЛОГ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Project 2/assets/HTML/Events_Space.html" target="_blank">НАСТАНИ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CO-WORKING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Project 2/assets/HTML/academies.html" target="_blank">АКАДЕМИИ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Project 2/assets/HTML/Events_Space.html" target="_blank">ПРОСТОР ЗА НАСТАНИ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">ПАРТНЕРСТВА</a>
+        </li>
+      </ul>
+      <!-- Button trigger modal  -->
+      <button type="button" class=" btn btn-outline-success modal-btn none align-items-center" data-toggle="modal"
+        data-target="#exampleModal">
+        + ПРИКЛУЧИ СЕ
+      </button>
+    </div>
+  </nav>
+
+  <!-- second nav -->
+  <nav class="navbar navbar-expand-lg navbar-light my-2 nav-toggle">
+
+    <ul class="navbar-nav text-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#">СИТЕ <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">КАРИЕРА</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ТЕХНОЛОГИЈА</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DATA SCIENCE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MARKETING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ДИЗАЈН</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">IMPACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"
+          href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152"
+          target="_blank">#SpaceFamily</a>
+      </li>
+
+    </ul>
+  </nav>
+  <div class="container-fluid nav2 mainBG">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Центар за Учење, Кариера и Иновации</h1>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="../Project 2/assets/img/brainster_space_logo.svg">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Приклучи се</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="TextInput1">Име и Презиме (задолжително)</label>
+              <input type="text" class="form-control" id="ModalLabel" aria-describedby="TextInput1"
+                placeholder="Име и Презиме" required>
+            </div>
+            <div class="form-group">
+              <label for="TextInput2">Име на компанијата (незадолжително)</label>
+              <input type="text" class="form-control" id="ModalLabel" aria-describedby="TextInput2"
+                placeholder="Име на компанија">
+            </div>
+            <div class="form-group">
+              <label for="TextInput3">Телефонски Број (задолжително)</label>
+              <input type="text" class="form-control" id="ModalLabel" aria-describedby="TextInput3"
+                placeholder="Внесете телефонски број" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Контакт имејл</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                placeholder="Контакт имејл на Вашата компанија">
+              <small id="emailHelp" class="form-text text-muted">* Ние никогаш нема да го сопделуваме
+                Вашиот имејл со
+                други.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Предлог за соработка (незадолжително)</label>
+              <textarea class="form-control"
+                placeholder=" во 300 карактери, опишете зошто сакаде да соработуваме."" id="
+                exampleFormControlTextarea1" rows="3"></textarea ">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Откажи</button>
+          <!-- <button type="submit" class="btn btn-primary"><i class="fas fa-arrow-right"></i>ИСПРАТИ ФОРМА</button> -->
+          <button onclick="alert('Вашата апликација е успешно испратена')" type="submit" class="btn btn-light" id="btn-A"><i class="fas fa-arrow-right"></i>ИСПРАТИ ФОРМА</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cards first part-->
+  <div class="card-div text-center">
+    <h2>За Нас</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row card-gen">
+      <!-- dinamic fill -->
+    </div>
+  </div>
+  <!-- edukacija -->
+  <!-- img right -->
+  <div class="container-fluid desno desno-dBlock">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="edukacija">
+          <h2 class="text-left">Едукација</h2>
+          <p class="text-left">
+            Дали си подготвен да одговориш на потребите на иднината.Вистински курсеви,
+            академии и семинар кои ќе ти овозможат кариерна трансформација во областа
+            дигитален маркетинг, дизајн, програмирање и Data Science.
+          </p>
+          <button class="btn" id="btn-A">Академии</button>
+          <button class="btn" id='btn-K'>За компании</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="edukacija">
+          <div class="slika1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- img left -->
+
+  <div class="container-fluid levo levo-dNone">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="edukacija">
+          <div class="slika2"></div>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="edukacija">
+          <h2 class="text-left">Компании</h2>
+          <p class="text-left">
+            Компаниите имаат можност да ги надоградат своите тимови, а со тоа да го подобрат
+            перформансот на својата компанија.
+          </p>
+          <p class="text-left">
+            Дигиталната трансформација се случува, а вашите компании треба да бидата подготвени
+            за да се адаптираат соодветно. Обуки, семинари, курсеви или team building?
+          </p>
+          <p class="text-left">
+            Во Brainster Space имаме специјално обучен тим кој е подготвен да ја насочи и адаптира
+            сподели својата експертиза со денешните потреби на компаниите.
+          </p>
+          <button class="btn" id="btn-A2">Академии</button>
+          <button class="btn" id='btn-K2'>За компании</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards second part -->
+
+  <div class="nastani">
+    <h2 class="text-center">Настани</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row kartici-nastani">
+      <!-- dinamic fill -->
+    </div>
+  </div>
+  <!-- btn kalendar -->
+  <div class="continer-fluid">
+    <div class="col-md-12 dugme">
+      <a href="../Project 2/assets/HTML/calendar.html" target="_blank"><button class="float-right btn btn-light"><i class="far fa-calendar-alt">календар на настани</i></button></a>
+    </div>
+  </div>
+
+  <!-- coworking line-through -->
+
+  <div class="container-fluid slikalevo">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="edukacija">
+          <div class="slika3"></div>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="edukacija2">
+          <h4><span class="badge badge-secondary">sold out</span></h4>
+          <h2 class="text-left">Coworking</h2>
+          <p class="text-left">
+            Биди дел од tech заедницата на иноватори, креативци и претприемачи.
+            Резервирај стол во нашата shared officе. Пичирај го твојот бизнис и нашиот тим заедно ќе одчучи секој месец
+            со кого да ги дели своите канцеларии.
+          </p>
+          <button class="btn btn-light" id="btn-line-through">РЕЗЕРВИРАЈ МЕСТО</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- event space -->
+
+  <div class="container-fluid desno desno-dBlock">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="edukacija4 ">
+          <h2 class="text-left">Простор за настани</h2>
+          <p class="text-left">
+            Можност за презентации,обуки,конференции, networking,настани. Одбери ја просторијата која најмногу
+            ќе одговара на твојата идеја. Го задржуваме правото да одбереме кој настан ќе се организира во
+            нашиот Brainster Space.
+          </p>
+          <button class="btn" id="btn-A"><i class="fas fa-arrow-right"></i>ВИДИ ГО ПРОСТОРОТ</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="edukacija">
+          <div class="slika4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- partnership  -->
+  
+  <div class="container-fluid">
+    <div class="col-lg-12 col-md-12 col-sm-12 promotext text-center">
+      <h2>Партнери</h2>
+      <h4>Имаш идеја? Отворени сме за соработка.</h4>
+      <button class="btn" id="btn-A"><i class="fas fa-arrow-right"></i>ВИДИ ГО ПРОСТОРОТ</button>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="logo d-xl-none  d-lg-none d-md-none d-xs-block d-sm-block pb-5 pl-2 pt-4">
+                <img class="media-object " src="../Project 2/assets/img/brainster_space_logo.svg" width="70px">
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 links pb-5">
+                <b>Корисни линкови</b>
+                <li><a data-toggle="popover" title="КОНТАКТ" data-content="Емаил: anja@brainster.co; Телефон: 070 233 414" >Контакт</a></li>
+                <li><a href="https://www.wearelaika.com/" target="_blank">Отворени позиции</a></li>
+                <li><a href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152" target="_blank">Галерија</a></li>
+                <li><a href="../Project 2/assets/HTML/calendar.html" target="_blank">Календар</a></li>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 social pb-5">
+                <p><b>Социјални мрежи</b></p>
+                <div class=contact>
+                    <a href="https://www.facebook.com/" target="_blank"><span style="padding-right: 8%; color:#000099;">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </span></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><span style="padding-right: 8%; color:#3366FF;">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </span></a>
+                    <a href="https://www.instagram.com" target="_blank"><span style="color:#CC0099;">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </span></a>                        
+                </div>                
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 logo pt-3">
+                <img class="float-right d-none d-xl-block d-lg-block d-xs-none d-sm-none d-md-block"
+                    src="../Project 2/assets/img/brainster_space_logo.svg" width="70px">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="container-fluid text-center copyright pt-4 pb-2 last">
+    <p><b>COPYRIGHT@BrainsterSpace. All Rights Reserved</b></p>
+</div>
+</footer>
+
+
+  <script src="./assets/JS/jquery.min.js"></script>
+  <script src="./assets/bootstrap/popper.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/JS/script.js"></script>
+</body>
+
+</html>

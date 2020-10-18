@@ -1,0 +1,31 @@
+.carText h3{
+    font-size: 3rem;
+    margin-bottom: 7%;
+    font-weight: bold;
+    color:whitesmoke;
+    margin-top: 2%;
+    
+}
+.carText p{
+    font-size: 1.75rem;
+    margin-bottom: 5%;
+    color: whitesmoke;
+}
+.carText button{
+    padding: 1%;
+    border-radius: 5px;
+    border: none;
+}
+
+.carText span{
+    border: 1px solid none;
+    background-color: #FCD232;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    color: black;
+    margin-left:1%;
+}
+.blockCardGener{
+    margin-top: 4%;
+}
