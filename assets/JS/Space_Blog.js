@@ -160,15 +160,4 @@ $(function() {
 		}
 	});
 
-	// $('.btnNav2').on('click', function(){
-	// 	//console.log('click');
-	// 	$.each(techCardsArr, function (index, element) {
-	// 		 let el = element;
-	// 		 console.log(el);
-	// 		if($(el).hasClass('kariera')){
-	// 			console.log(el);
-	// 			$('.dizajn').css('display', 'none');
-	// 		}
-	// 	});
-	// })
 });

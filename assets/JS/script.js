@@ -14,7 +14,7 @@ $(function() {
 
 	//___________________________________________
 
-	//kartici
+	//cards
 
 	class card {
 		constructor(_img, _title, _desc, _link) {
@@ -78,7 +78,7 @@ $(function() {
 	});
 
 	//______________________________________________________________________________________
-	//sliki levo-desno
+	//img left-down
 
 	$('#btn-K').on('click', function() {
 		$('.desno').hide();
@@ -90,7 +90,7 @@ $(function() {
 		$('.levo').hide();
 	});
 	//_____________________________________________________________________________________________________________
-	// //kartici nastani
+	// //cads events
 
 	class cardI {
 		constructor(_img, _title, _desc, _link, _id) {
